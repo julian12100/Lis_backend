@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "extensions",
+  "info": {
+    "singularName": "extension",
+    "pluralName": "extensions",
+    "displayName": "extension",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "extension": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "sede": {
+      "type": "enumeration",
+      "enum": [
+        "Calle 75",
+        "Calle 100",
+        "Restrepo",
+        "Kennedy",
+        "Villa del rio",
+        "Calle 103",
+        "Chia ",
+        "San Roque",
+        "Elemento",
+        "Gran estacion",
+        "Forest",
+        "Salas CX",
+        "Teletrabajo",
+        "Colina"
+      ]
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "whatsapp",
+        "local"
+      ]
+    }
+  }
+}
